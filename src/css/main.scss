@@ -14,7 +14,7 @@
 
 // Generator Default style, delete these
 h1 {
-	font-size: 2.2rem;
+	font-size: 2.7rem;
 }
 
 h2 {
@@ -44,7 +44,8 @@ code {
 	padding: 2px 10px;
 }
 body{
-  background-color: #494444;
+  background-color: #151515;
+  font-family: 'Lato', sans-serif;
 }
 .hero #facebookBlue {
   background-color: #0685ed;
@@ -76,7 +77,7 @@ body{
 .hero h1{
   z-index: 100;
   position: absolute;
-  left: 45%;
+  left: 44%;
   top: 554px;
   color: white;
 }
@@ -84,14 +85,16 @@ body{
   z-index: 100;
   position: absolute;
   left: 35%;
-  top: 589px;
+  top: 607px;
   color: white;
+  font-family: Roboto;
+  margin-top: 45px;
 }
 .hero #learn{
   z-index: 100;
   position: absolute;
   left: 603px;
-  top: 670px;
+  top: 707px;
   color: white;
   border: 1px solid #4fc6f7;
   border-radius: 10px;
@@ -102,8 +105,8 @@ body{
   width: 1400px;
   height: 934.66px;
   margin: 0 auto;
-  margin-top: -23px;
-  background-color: #ebebeb;
+  margin-top: -29px;
+  background-color: #ffffff;
 }
 .features h1{
   text-align: center;
@@ -118,11 +121,11 @@ body{
   font-size: 20px;
 }
 .features h3{
-  color: blue;
+  color: #1640A8;
 }
 .features div{
-  width: 25%;
-  padding-left: 84px;
+  width: 23%;
+  padding-left: 106px;
   display: inline-block;
   text-align: center;
   margin: 0 auto;
@@ -130,6 +133,7 @@ body{
 }
 .features div p{
   font-size: 13px;
+  font-family: Roboto;
 }
 .features i{
   background: linear-gradient(to top right, blue, aqua);
@@ -141,11 +145,11 @@ body{
 }
 .features #getStarted{
   z-index: 100;
-  color: blue;
-  border: 1px solid #4fc6f7;
+  color: #1640A8;
+  border: 1px solid #B2EFFD;
   border-radius: 10px;
-  padding: 0 50px 0 50px;
-  width: 116px;
+  padding: 6px 50px 6px 50px;
+  width: 131px;
   text-align: center;
   margin: 0 auto;
   margin-top: 70px;
@@ -154,8 +158,9 @@ body{
   height: 934.66px;
   width: 1400px;
   margin: 0 auto;
-  margin-top: -25px;
-  background-color: #d7d7d7;
+  margin-top: -29px;
+  background-color: #F2F2F2;
+  color: #4D4D4D;
 }
 
 .pricing h1{
@@ -163,10 +168,14 @@ body{
   text-align: center;
   color: #3e3c3c;
 }
+.pricing h2{
+  font-family: Lato;
+}
 .pricing p{
   text-align: center;
   font-size: 17px;
   font-weight: lighter;
+  font-family: Roboto;
 }
 .pricing div{
   width: 25%;
@@ -184,42 +193,70 @@ body{
   font-size: 104px;
   border-radius: 50%;
   padding: 23px;
-  color: #d3c88a;
 }
 .pricing #buy{
-  color: #3e3c3c;
   border: 1px solid #a6aeb1;
   border-radius: 10px;
-  padding: 10px 50px 10px 50px;
+  padding: 7px 50px 7px 50px;
+  width: 25%;
+  margin: 0 auto;
 }
 .pricing #download{
-  color: #3e3c3c;
   border: 1px solid #a6aeb1;
   border-radius: 10px;
-  padding: 10px 50px 10px 50px;
+  padding: 7px 50px 7px 50px;
+  width: 25%;
+  margin: 0 auto;
 }
 .pricing .synapsesApp #app{
   height: 150px;
 }
+.pricing .synapsesApp p{
+  padding-bottom: 20px;
+}
 .footer{
   height: 500px;
   margin: 0 auto;
-  margin-top: -25px;
+  margin-top: -29px;
   width: 1400px;
   text-align: center;
   color: white;
   background: url(https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0d483d5…);
   -webkit-filter: grayscale(100%);
-  -webkit-filter: opacity(50%);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .footer h1{
   padding-top: 75px;
 }
+.footer #help{
+  margin: 0 auto;
+  width: 50%;
+  font-size: 21px;
+  font-family: Roboto;
+}
 .footer #question{
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 7px 5px 7px 2px;
+  width: 15%;
   display: inline-block;
+  margin-right: 50px;
 }
 .footer #faq{
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 7px 5px 7px 2px;
+  width: 15%;
   display: inline-block;
+}
+.footer #dataRates{
+  font-size: 14px;
+  margin-top: 55px;
+  margin-bottom: -12px;
+}
+.footer #company{
+  font-size: 14px;
 }
