@@ -7,9 +7,5 @@ $(document).ready(function () {
   const test = new layout();
   test.init();
 
-	
+
 });
-
-
-
-
