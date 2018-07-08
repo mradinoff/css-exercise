@@ -1,0 +1,28 @@
+{% extends "master.njk" %}
+
+{% block content %}
+
+	<h1>{{ example_content.title }}</h1>
+	<p>{{ example_content.text }}</p>
+
+	<h2>Next steps</h2>
+		<h3>The Design</h3>
+		<p>Access the site design via the Invision link you have received. View the design in <i>Inspect</i> mode to download image assets. Where there are no assets, use placeholder images.</p>
+		<p>The font is Lato and can be found for free via Google Fonts.</p>
+		<p>Replicate the one page design utilising this repo.</p>
+		<p>Once ready to submit, share the link to your repo <i>or</i> submit a Pull Request <i>or</i> share the hosted site link.</p>
+		<p>This project does not need to be responsive, however feel free to make it mobile.</p>
+		<p>Good luck!</p>
+		<hr>
+		<h2>About this repo</h2>
+		<h3>Nunjucks</h3>
+		<p>This project uses the nunjucks templating engine.</p>
+		<p>If you are unfamiliar with Nunjucks, documentation can be found at <a href="https://mozilla.github.io/nunjucks/">https://mozilla.github.io/nunjucks/</a></p>
+		<p>However, feel free to use the Nunjucks files like regular .html files with home.njk a good starting point.</p>
+		<p>Take a look at the relationship between the files in the /html directory and how they work together if you're interested in learning more.</p>
+		<h3>CSS/SCSS</h3>
+		<p>This project uses CSS/SCSS.</p>
+		<h3>Grids</h3>
+		<p>This project has Neat 2 installed - Documentation can be found here <a href="https://neat.bourbon.io/docs/2.0.0/">https://neat.bourbon.io/docs/2.0.0/</a></p>
+
+	{% endblock %}
