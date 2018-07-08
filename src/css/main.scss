@@ -43,3 +43,42 @@ code {
 
 	padding: 2px 10px;
 }
+.hero #facebookBlue {
+  background-color: #0685ed;
+  z-index: 50;
+  width: 1400px;
+  height: 934.66px;
+  position: absolute;
+  opacity: 0.8;
+  margin: 0 auto;
+  display: block;
+  left: 20px;
+}
+
+.hero #cover {
+  width: 1400px;
+  display: block;
+  margin: 0 auto;
+  z-index: 1;
+}
+.hero #lightningBrain {
+  z-index: 100;
+  position: absolute;
+  left: 593px;
+  top: 313px;
+  max-height: 251px;
+}
+.hero h1{
+  z-index: 100;
+  position: absolute;
+  left: 648px;
+  top: 554px;
+  color: white;
+}
+.hero #heroDescription{
+  z-index: 100;
+  position: absolute;
+  left: 531px;
+  top: 589px;
+  color: white;
+}
