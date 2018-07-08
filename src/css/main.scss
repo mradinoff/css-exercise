@@ -1,20 +1,4 @@
-// Grid settings
-$max-width: 800px;
 
-$neat-grid: (
-  columns: 12,
-  gutter: 10px,
-  color: rgba(#00d4ff, 0.25),
-  direction: ltr
-);
-
-$mobile: (
-	columns: 4,
-	gutter: 1rem,
-	color: rgba(#00d4ff, 0.25),
-	direction: ltr,
-	media: 800px
-);
 
 @import 'normalize';
 
