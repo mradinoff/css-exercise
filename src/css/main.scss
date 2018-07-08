@@ -43,10 +43,14 @@ code {
 
 	padding: 2px 10px;
 }
+body{
+  background-color: #494444;
+}
 .hero #facebookBlue {
   background-color: #0685ed;
   z-index: 50;
-  width: 1400px;
+  width: 100%;
+  max-width: 1400px;
   height: 934.66px;
   position: absolute;
   opacity: 0.8;
@@ -56,7 +60,8 @@ code {
 }
 
 .hero #cover {
-  width: 1400px;
+  width: 100%;
+  max-width: 1400px;
   display: block;
   margin: 0 auto;
   z-index: 1;
@@ -64,21 +69,157 @@ code {
 .hero #lightningBrain {
   z-index: 100;
   position: absolute;
-  left: 593px;
+  left: 41%;
   top: 313px;
   max-height: 251px;
 }
 .hero h1{
   z-index: 100;
   position: absolute;
-  left: 648px;
+  left: 45%;
   top: 554px;
   color: white;
 }
 .hero #heroDescription{
   z-index: 100;
   position: absolute;
-  left: 531px;
+  left: 35%;
   top: 589px;
   color: white;
+}
+.hero #learn{
+  z-index: 100;
+  position: absolute;
+  left: 603px;
+  top: 670px;
+  color: white;
+  border: 1px solid #4fc6f7;
+  border-radius: 10px;
+  padding: 10px 50px 10px 50px;
+}
+
+.features{
+  width: 1400px;
+  height: 934.66px;
+  margin: 0 auto;
+  margin-top: -23px;
+  background-color: #ebebeb;
+}
+.features h1{
+  text-align: center;
+  color: #0034a9;
+  padding-top: 135px;
+}
+.features h2{
+  width: 70%;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.features h3{
+  color: blue;
+}
+.features div{
+  width: 25%;
+  padding-left: 84px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.features div p{
+  font-size: 13px;
+}
+.features i{
+  background: linear-gradient(to top right, blue, aqua);
+   color: #ebebeb;
+   padding: 25px 40px 25px 40px;
+   border-radius: 50%;
+   font-size: 92px;
+   text-align: center;
+}
+.features #getStarted{
+  z-index: 100;
+  color: blue;
+  border: 1px solid #4fc6f7;
+  border-radius: 10px;
+  padding: 0 50px 0 50px;
+  width: 116px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.pricing{
+  height: 934.66px;
+  width: 1400px;
+  margin: 0 auto;
+  margin-top: -25px;
+  background-color: #d7d7d7;
+}
+
+.pricing h1{
+  padding-top: 135px;
+  text-align: center;
+  color: #3e3c3c;
+}
+.pricing p{
+  text-align: center;
+  font-size: 17px;
+  font-weight: lighter;
+}
+.pricing div{
+  width: 25%;
+  padding-left: 84px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.pricing .nuroRing{
+  margin-left: 15%;
+}
+.pricing i{
+  background-color: white;
+  font-size: 104px;
+  border-radius: 50%;
+  padding: 23px;
+  color: #d3c88a;
+}
+.pricing #buy{
+  color: #3e3c3c;
+  border: 1px solid #a6aeb1;
+  border-radius: 10px;
+  padding: 10px 50px 10px 50px;
+}
+.pricing #download{
+  color: #3e3c3c;
+  border: 1px solid #a6aeb1;
+  border-radius: 10px;
+  padding: 10px 50px 10px 50px;
+}
+.pricing .synapsesApp #app{
+  height: 150px;
+}
+.footer{
+  height: 500px;
+  margin: 0 auto;
+  margin-top: -25px;
+  width: 1400px;
+  text-align: center;
+  color: white;
+  background: url(https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0d483d5…);
+  -webkit-filter: grayscale(100%);
+  -webkit-filter: opacity(50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer h1{
+  padding-top: 75px;
+}
+.footer #question{
+  display: inline-block;
+}
+.footer #faq{
+  display: inline-block;
 }
